@@ -81,13 +81,8 @@ public class Statistique {
                 Client client = new Client();
                 Prestataire prestataire = new Prestataire();
 
-<<<<<<< HEAD
-                // Facture f = new Facture(id, paiement, statut, date, client, prestataire);
-=======
-
                 Facture f = new Facture(id, montant, statut, date, client, prestataire);
 
->>>>>>> cd4ffc184c11cb7d51e7619135b270e93a05bde9
                 this.factures.add(f);
 
                 System.out.println("Facture ID : "
