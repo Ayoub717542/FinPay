@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 public class PaiementTest {
 
     Paiement paiement = new Paiement();
-
     @Test
     void commissionMontantNormal() {
         assertEquals(20.0, paiement.calculerCommission(1000));

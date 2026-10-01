@@ -100,7 +100,6 @@ public class Paiement {
             psFacture.setInt(1, idClient);
 
             ResultSet rs = psFacture.executeQuery();
-
             boolean existe = false;
 
             while (rs.next()) {
